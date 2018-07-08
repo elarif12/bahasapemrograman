@@ -2,15 +2,14 @@
 public class ellooping {
 	public static void main(String[] args){
 		int loopmaksimal = 5;
-		int a = 1;
-		int	b, c, d;
+		int a = 1, b, c, d;
 		
 		while(a <= loopmaksimal)
 		{
 			b = 1;
 			while(b <= a)
 			{
-				System.out.println(b+" ");
+				System.out.print(b+" ");
 				b++;
 			}
 			System.out.println();
@@ -23,7 +22,7 @@ public class ellooping {
 			d = 1;
 			while(d <= c)
 			{
-				System.out.println(d+" ");
+				System.out.print(d+" ");
 				d++;
 			}
 			System.out.println();
